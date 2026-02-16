@@ -1,62 +1,22 @@
 [
   {
-    "name": "Great Lakes Shafts",
-    "url": "https://greatlakesshafts.com",
-    "icon": "https://icons.duckduckgo.com/ip3/greatlakesshafts.com.ico",
-    "slug": "great-lakes-shafts",
-    "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
-    "time": 177,
-    "timeDay": 177,
-    "timeWeek": 177,
-    "timeMonth": 177,
-    "timeYear": 177,
-    "dailyMinutesDown": {
-      "2026-02-16": 6
-    }
-  },
-  {
     "name": "CarbonNapkin",
     "url": "https://carbonnapkin.com",
     "icon": "https://icons.duckduckgo.com/ip3/carbonnapkin.com.ico",
     "slug": "carbon-napkin",
     "status": "down",
-    "uptime": "0.15%",
-    "uptimeDay": "0.15%",
-    "uptimeWeek": "0.15%",
-    "uptimeMonth": "0.15%",
-    "uptimeYear": "0.15%",
+    "uptime": "0.07%",
+    "uptimeDay": "0.07%",
+    "uptimeWeek": "0.07%",
+    "uptimeMonth": "0.07%",
+    "uptimeYear": "0.07%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-02-16": 6
-    }
-  },
-  {
-    "name": "Lake Superior Fasteners",
-    "url": "https://lakesuperiorfasteners.com",
-    "icon": "https://icons.duckduckgo.com/ip3/lakesuperiorfasteners.com.ico",
-    "slug": "lake-superior-fasteners",
-    "status": "down",
-    "uptime": "0.28%",
-    "uptimeDay": "0.28%",
-    "uptimeWeek": "0.28%",
-    "uptimeMonth": "0.28%",
-    "uptimeYear": "0.28%",
-    "time": 175,
-    "timeDay": 175,
-    "timeWeek": 175,
-    "timeMonth": 175,
-    "timeYear": 175,
-    "dailyMinutesDown": {
-      "2026-02-16": 6
+      "2026-02-16": 8
     }
   },
   {
@@ -70,13 +30,13 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 154,
-    "timeDay": 154,
-    "timeWeek": 154,
-    "timeMonth": 154,
-    "timeYear": 154,
+    "time": 150,
+    "timeDay": 150,
+    "timeWeek": 150,
+    "timeMonth": 150,
+    "timeYear": 150,
     "dailyMinutesDown": {
-      "2026-02-16": 6
+      "2026-02-16": 8
     }
   },
   {
@@ -90,11 +50,51 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 241,
-    "timeDay": 241,
-    "timeWeek": 241,
-    "timeMonth": 241,
-    "timeYear": 241,
+    "time": 221,
+    "timeDay": 221,
+    "timeWeek": 221,
+    "timeMonth": 221,
+    "timeYear": 221,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "Great Lakes Shafts",
+    "url": "https://greatlakesshafts.com",
+    "icon": "https://icons.duckduckgo.com/ip3/greatlakesshafts.com.ico",
+    "slug": "great-lakes-shafts",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 199,
+    "timeDay": 199,
+    "timeWeek": 199,
+    "timeMonth": 199,
+    "timeYear": 199,
+    "dailyMinutesDown": {
+      "2026-02-16": 8
+    }
+  },
+  {
+    "name": "Lake Superior Fasteners",
+    "url": "https://lakesuperiorfasteners.com",
+    "icon": "https://icons.duckduckgo.com/ip3/lakesuperiorfasteners.com.ico",
+    "slug": "lake-superior-fasteners",
+    "status": "down",
+    "uptime": "0.16%",
+    "uptimeDay": "0.16%",
+    "uptimeWeek": "0.16%",
+    "uptimeMonth": "0.16%",
+    "uptimeYear": "0.16%",
+    "time": 169,
+    "timeDay": 169,
+    "timeWeek": 169,
+    "timeMonth": 169,
+    "timeYear": 169,
+    "dailyMinutesDown": {
+      "2026-02-16": 8
+    }
   }
 ]
