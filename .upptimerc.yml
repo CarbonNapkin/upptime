@@ -2,32 +2,36 @@ owner: CarbonNapkin
 repo: upptime
 
 sites:
-  - name: Great Lakes Shafts
-    url: https://greatlakesshafts.com
-    expectedStatusCodes:
-      - 200
-      - 301
-      - 302
   - name: CarbonNapkin
     url: https://carbonnapkin.com
     expectedStatusCodes:
       - 200
       - 301
       - 302
-  - name: Lake Superior Fasteners
-    url: https://lakesuperiorfasteners.com
-    expectedStatusCodes:
-      - 200
-      - 301
-      - 302
+      
   - name: API
     url: https://api.carbonnapkin.com
     expectedStatusCodes:
       - 200
       - 301
       - 302
+      
   - name: C6NAP
     url: https://c6nap.com
+    
+  - name: Great Lakes Shafts
+    url: https://greatlakesshafts.com
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+
+  - name: Lake Superior Fasteners
+    url: https://lakesuperiorfasteners.com
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
 
 status-website:
   cname: status.carbonnapkin.com
