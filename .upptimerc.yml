@@ -19,7 +19,8 @@ status-website:
   cname: status.carbonnapkin.com
   logoUrl: https://carbonnapkin.com/favicon.svg
   name: CarbonNapkin Status
-  theme: dark
+  themeUrl: https://status.carbonnapkin.com/carbonnapkin-theme.css
+  favicon: https://carbonnapkin.com/favicon.svg
 
 workflowSchedule:
   graphs: "0 0 * * *"

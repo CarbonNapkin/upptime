@@ -20,14 +20,6 @@
   --link-hover-color: #8ab5cf;
 }
 
-a {
-  color: #6a9ab8;
-}
-
-a:hover {
-  color: #8ab5cf;
-}
-
-footer {
-  color: #6a9ab8;
-}
+a { color: #6a9ab8; }
+a:hover { color: #8ab5cf; }
+footer { color: #6a9ab8; }
