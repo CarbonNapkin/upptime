@@ -3,19 +3,19 @@
   --body-text-color: #c4d1dc;
   --card-background-color: #243b53;
   --card-border-color: #3d5a73;
-  --nav-background-color: #1a2e44;
+  --nav-background-color: #243b53;
   --nav-border-bottom-color: #3d5a73;
   --nav-text-color: #c4d1dc;
   --nav-current-border-bottom-color: #6a9ab8;
-  --up-color: #6a9ab8;
-  --up-background-color: rgba(106, 154, 184, 0.15);
-  --up-border-left-color: #6a9ab8;
+  --up-color: #4ade80;
+  --up-background-color: rgba(74, 222, 128, 0.1);
+  --up-border-left-color: #4ade80;
   --down-color: #ef4444;
   --down-background-color: rgba(239, 68, 68, 0.15);
   --down-border-left-color: #ef4444;
-  --degraded-color: #c4d1dc;
-  --degraded-background-color: rgba(196, 209, 220, 0.15);
-  --degraded-border-left-color: #c4d1dc;
+  --degraded-color: #fbbf24;
+  --degraded-background-color: rgba(251, 191, 36, 0.15);
+  --degraded-border-left-color: #fbbf24;
   --link-color: #6a9ab8;
   --link-hover-color: #8ab5cf;
 }
