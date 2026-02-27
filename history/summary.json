@@ -148,18 +148,20 @@
     "url": "https://api.carbonnapkin.com/health/droplet",
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
     "slug": "droplet",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 114,
-    "timeDay": 114,
-    "timeWeek": 114,
-    "timeMonth": 114,
-    "timeYear": 114,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
+    "time": 1085,
+    "timeDay": 1085,
+    "timeWeek": 1085,
+    "timeMonth": 1085,
+    "timeYear": 1085,
+    "dailyMinutesDown": {
+      "2026-02-27": 0
+    }
   },
   {
     "name": "FedEx",
@@ -214,7 +216,7 @@
     "timeMonth": 97,
     "timeYear": 97,
     "dailyMinutesDown": {
-      "2026-02-27": 1024
+      "2026-02-27": 1045
     }
   },
   {
@@ -234,7 +236,7 @@
     "timeMonth": 120,
     "timeYear": 120,
     "dailyMinutesDown": {
-      "2026-02-27": 1024
+      "2026-02-27": 1045
     }
   },
   {
@@ -242,19 +244,19 @@
     "url": "https://api.carbonnapkin.com/health/hubspot",
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
     "slug": "hub-spot",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 124,
-    "timeDay": 124,
-    "timeWeek": 124,
-    "timeMonth": 124,
-    "timeYear": 124,
+    "status": "up",
+    "uptime": "98.06%",
+    "uptimeDay": "98.06%",
+    "uptimeWeek": "98.06%",
+    "uptimeMonth": "98.06%",
+    "uptimeYear": "98.06%",
+    "time": 356,
+    "timeDay": 356,
+    "timeWeek": 356,
+    "timeMonth": 356,
+    "timeYear": 356,
     "dailyMinutesDown": {
-      "2026-02-27": 0
+      "2026-02-27": 20
     }
   }
 ]
