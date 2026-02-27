@@ -18,7 +18,7 @@ jobs:
         with:
           ref: master
       - name: Build and deploy
-        uses: upptime/uptime-monitor@v1
+        uses: upptime/uptime-monitor@v1.41.0
         with:
           command: "site"
         env:
