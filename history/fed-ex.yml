@@ -1,7 +1,7 @@
 url: https://api.carbonnapkin.com/health/fedex
-status: down
-code: 530
-responseTime: 5
-lastUpdated: 2026-04-09T19:22:52.798Z
+status: up
+code: 200
+responseTime: 475
+lastUpdated: 2026-04-09T20:11:15.888Z
 startTime: 2026-02-27T02:35:50.984Z
 generator: Upptime <https://github.com/upptime/upptime>
