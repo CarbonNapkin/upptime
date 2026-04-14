@@ -23,8 +23,6 @@ sites:
     url: https://api.carbonnapkin.com/health/fedex
   - name: UPS
     url: https://api.carbonnapkin.com/health/ups
-  - name: QuickBooks
-    url: https://api.carbonnapkin.com/health/qbo
   - name: Email
     url: https://api.carbonnapkin.com/health/email
   - name: HubSpot
