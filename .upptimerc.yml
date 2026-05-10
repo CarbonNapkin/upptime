@@ -1,0 +1,54 @@
+owner: CarbonNapkin
+repo: upptime
+sites:
+  - name: API
+    url: https://api.carbonnapkin.com/health
+  - name: Portal
+    url: https://portal.carbonnapkin.com/health
+  - name: Admin
+    url: https://admin.carbonnapkin.com/health
+  - name: CarbonNapkin
+    url: https://carbonnapkin.com/health
+  - name: Great Lakes Shafts
+    url: https://greatlakesshafts.com/health
+  - name: Lake Superior Fasteners
+    url: https://lakesuperiorfasteners.com/health
+  - name: Database
+    url: https://api.carbonnapkin.com/health/db
+  - name: Payments
+    url: https://api.carbonnapkin.com/health/payments
+  - name: Droplet
+    url: https://api.carbonnapkin.com/health/droplet
+  - name: FedEx
+    url: https://api.carbonnapkin.com/health/fedex
+  - name: UPS
+    url: https://api.carbonnapkin.com/health/ups
+  - name: Email
+    url: https://api.carbonnapkin.com/health/email
+  - name: HubSpot
+    url: https://api.carbonnapkin.com/health/hubspot
+  - name: Crons
+    url: https://api.carbonnapkin.com/health/crons
+notifications:
+  # Slack alerts on site/service degradation. The Upptime workflow reads
+  # the webhook URL from the NOTIFICATION_SLACK_WEBHOOK_URL repo secret —
+  # not from this file — so the URL never sits in git.
+  #
+  # Routed to the same channel as the API's send_critical_error /
+  # send_pipeline_failure / send_dispute_alert pings. One-person ops:
+  # consolidating signals beats splitting them across channels.
+  - type: slack
+    channel: '#ops-alerts'
+status-website:
+  cname: status.carbonnapkin.com
+  logoUrl: https://carbonnapkin.com/favicon.svg
+  name: CarbonNapkin Status
+  theme: dark
+  css: ":root{--body-background-color:#1a2e44;--body-text-color:#c4d1dc;--card-background-color:#243b53;--card-border-color:#3d5a73;--nav-background-color:#243b53;--nav-border-bottom-color:#3d5a73;--nav-text-color:#c4d1dc;--up-color:#4ade80;--up-background-color:rgba(74,222,128,0.1);--up-border-left-color:#4ade80;--down-color:#ef4444;--down-background-color:rgba(239,68,68,0.15);--down-border-left-color:#ef4444;--degraded-color:#fbbf24;--degraded-background-color:rgba(251,191,36,0.15);--degraded-border-left-color:#fbbf24;--link-color:#6a9ab8;--link-hover-color:#8ab5cf}a{color:#6a9ab8}a:hover{color:#8ab5cf}footer{color:#6a9ab8}"
+  favicon: https://carbonnapkin.com/favicon.svg
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  uptime: "*/5 * * * *"
