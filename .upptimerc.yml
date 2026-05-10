@@ -27,6 +27,8 @@ sites:
     url: https://api.carbonnapkin.com/health/email
   - name: HubSpot
     url: https://api.carbonnapkin.com/health/hubspot
+  - name: Crons
+    url: https://api.carbonnapkin.com/health/crons
 status-website:
   cname: status.carbonnapkin.com
   logoUrl: https://carbonnapkin.com/favicon.svg
