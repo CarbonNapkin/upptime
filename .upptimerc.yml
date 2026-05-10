@@ -29,6 +29,16 @@ sites:
     url: https://api.carbonnapkin.com/health/hubspot
   - name: Crons
     url: https://api.carbonnapkin.com/health/crons
+notifications:
+  # Slack alerts on site/service degradation. The Upptime workflow reads
+  # the webhook URL from the NOTIFICATION_SLACK_WEBHOOK_URL repo secret —
+  # not from this file — so the URL never sits in git.
+  #
+  # Routed to the same channel as the API's send_critical_error /
+  # send_pipeline_failure / send_dispute_alert pings. One-person ops:
+  # consolidating signals beats splitting them across channels.
+  - type: slack
+    channel: '#ops-alerts'
 status-website:
   cname: status.carbonnapkin.com
   logoUrl: https://carbonnapkin.com/favicon.svg
