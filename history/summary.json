@@ -238,17 +238,19 @@
     "url": "https://api.carbonnapkin.com/health/crons",
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
     "slug": "crons",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 152,
-    "timeDay": 201,
-    "timeWeek": 152,
-    "timeMonth": 152,
-    "timeYear": 152,
-    "dailyMinutesDown": {}
+    "time": 151,
+    "timeDay": 175,
+    "timeWeek": 151,
+    "timeMonth": 151,
+    "timeYear": 151,
+    "dailyMinutesDown": {
+      "2026-05-13": 0
+    }
   }
 ]
