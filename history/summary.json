@@ -90,24 +90,6 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Lake Superior Fasteners",
-    "url": "https://lakesuperiorfasteners.com/health",
-    "icon": "https://icons.duckduckgo.com/ip3/lakesuperiorfasteners.com.ico",
-    "slug": "lake-superior-fasteners",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 128,
-    "timeDay": 152,
-    "timeWeek": 106,
-    "timeMonth": 128,
-    "timeYear": 128,
-    "dailyMinutesDown": {}
-  },
-  {
     "name": "Database",
     "url": "https://api.carbonnapkin.com/health/db",
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
@@ -239,11 +221,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
     "slug": "crons",
     "status": "up",
-    "uptime": "95.57%",
+    "uptime": "95.68%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "95.57%",
-    "uptimeYear": "95.57%",
+    "uptimeMonth": "95.68%",
+    "uptimeYear": "95.68%",
     "time": 196,
     "timeDay": 189,
     "timeWeek": 167,
@@ -252,6 +234,26 @@
     "dailyMinutesDown": {
       "2026-05-14": 884,
       "2026-05-13": 353
+    }
+  },
+  {
+    "name": "Render",
+    "url": "https://api.carbonnapkin.com/health/render",
+    "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
+    "slug": "render",
+    "status": "up",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-05-30": 30
     }
   }
 ]
