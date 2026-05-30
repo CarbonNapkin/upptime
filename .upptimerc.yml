@@ -29,6 +29,8 @@ sites:
     url: https://api.carbonnapkin.com/health/hubspot
   - name: Crons
     url: https://api.carbonnapkin.com/health/crons
+  - name: Render
+    url: https://api.carbonnapkin.com/health/render
 notifications:
   # Slack alerts on site/service degradation. The Upptime workflow reads
   # the webhook URL from the NOTIFICATION_SLACK_WEBHOOK_URL repo secret —
