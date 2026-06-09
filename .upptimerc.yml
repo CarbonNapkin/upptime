@@ -5,8 +5,6 @@ sites:
     url: https://api.carbonnapkin.com/health
   - name: Portal
     url: https://portal.carbonnapkin.com/health
-  - name: Admin
-    url: https://admin.carbonnapkin.com/health
   - name: CarbonNapkin
     url: https://carbonnapkin.com/health
   - name: Great Lakes Shafts

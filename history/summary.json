@@ -36,29 +36,6 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Admin",
-    "url": "https://admin.carbonnapkin.com/health",
-    "icon": "https://icons.duckduckgo.com/ip3/admin.carbonnapkin.com.ico",
-    "slug": "admin",
-    "status": "down",
-    "uptime": "90.27%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "59.16%",
-    "uptimeMonth": "90.27%",
-    "uptimeYear": "90.27%",
-    "time": 129,
-    "timeDay": 0,
-    "timeWeek": 104,
-    "timeMonth": 129,
-    "timeYear": 129,
-    "dailyMinutesDown": {
-      "2026-06-09": 114,
-      "2026-06-08": 1440,
-      "2026-06-07": 1440,
-      "2026-06-06": 1123
-    }
-  },
-  {
     "name": "CarbonNapkin",
     "url": "https://carbonnapkin.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/carbonnapkin.com.ico",
