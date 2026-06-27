@@ -205,11 +205,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
     "slug": "crons",
     "status": "down",
-    "uptime": "98.19%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "98.19%",
+    "uptime": "98.18%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "98.18%",
     "time": 202,
     "timeDay": 263,
     "timeWeek": 241,
@@ -218,7 +218,7 @@
     "dailyMinutesDown": {
       "2026-05-14": 884,
       "2026-05-13": 353,
-      "2026-06-27": 0
+      "2026-06-27": 5
     }
   },
   {
