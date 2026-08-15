@@ -27,6 +27,25 @@ sites:
     url: https://api.carbonnapkin.com/health/crons
   - name: Render
     url: https://api.carbonnapkin.com/health/render
+  # The CF Browser Rendering reserve pipeline. A back-pocket engine nobody
+  # exercises is exactly the thing that rots unnoticed, so it gets watched
+  # like a live one. Caveat: when DRAWING_RENDER_URL is unset the route
+  # answers 200 'not_configured' — this catches a dead Worker, NOT an
+  # un-wired reserve. Check the bundleHash in the body for drift.
+  - name: Render Reserve
+    url: https://api.carbonnapkin.com/health/render/cf
+  # OCCT STEP sidecar. Async + low-volume by design, so a dead sidecar
+  # degrades STEP generation without ever failing an order — silent, which
+  # is the whole reason it needs an external monitor.
+  - name: STEP Sidecar
+    url: https://api.carbonnapkin.com/health/step
+  # Re-added 2026-08-15. Dropped 2026-04-14 when every idle access token
+  # read as an outage; probe_qbo was rewritten 2026-05-15 and now reports
+  # down only when the *refresh* token is stale (reauth genuinely required)
+  # — a merely-expired access token is self-healing and reports healthy.
+  # If this flaps again, the probe is the thing to fix, not this entry.
+  - name: QuickBooks
+    url: https://api.carbonnapkin.com/health/qbo
 notifications:
   # Slack alerts on site/service degradation. The Upptime workflow reads
   # the webhook URL from the NOTIFICATION_SLACK_WEBHOOK_URL repo secret —
