@@ -11,6 +11,12 @@ sites:
     url: https://greatlakesshafts.com/health
   - name: Database
     url: https://api.carbonnapkin.com/health/db
+  # Supabase Auth (GoTrue). Sits next to Database because they're the pair
+  # that mean "nobody can use the site" — Postgres being up is no comfort if
+  # logins can't be verified. Route added in cn#772; the probe behind it had
+  # been running in cron.dependency_health for months with no public signal.
+  - name: Auth
+    url: https://api.carbonnapkin.com/health/auth
   - name: Payments
     url: https://api.carbonnapkin.com/health/payments
   - name: Droplet
