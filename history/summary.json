@@ -5,19 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
     "slug": "api",
     "status": "down",
-    "uptime": "99.82%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.82%",
-    "time": 306,
+    "uptime": "99.81%",
+    "uptimeDay": "99.67%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.81%",
+    "time": 305,
     "timeDay": 341,
     "timeWeek": 318,
     "timeMonth": 307,
-    "timeYear": 306,
+    "timeYear": 305,
     "dailyMinutesDown": {
       "2026-06-23": 255,
-      "2026-08-16": 0
+      "2026-08-16": 5
     }
   },
   {
