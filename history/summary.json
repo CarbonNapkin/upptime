@@ -204,19 +204,19 @@
     "url": "https://api.carbonnapkin.com/health/hubspot",
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
     "slug": "hub-spot",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
-    "time": 416,
-    "timeDay": 272,
-    "timeWeek": 338,
-    "timeMonth": 377,
-    "timeYear": 416,
+    "time": 414,
+    "timeDay": 278,
+    "timeWeek": 333,
+    "timeMonth": 375,
+    "timeYear": 414,
     "dailyMinutesDown": {
-      "2026-08-17": 0
+      "2026-08-17": 5
     }
   },
   {
