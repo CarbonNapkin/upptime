@@ -1,7 +1,7 @@
 url: https://api.carbonnapkin.com/health/droplet
-status: down
-code: 502
-responseTime: 276
-lastUpdated: 2026-08-20T20:45:36.862Z
+status: up
+code: 200
+responseTime: 265
+lastUpdated: 2026-08-20T20:47:25.562Z
 startTime: 2026-05-10T16:37:08.691Z
 generator: Upptime <https://github.com/upptime/upptime>
