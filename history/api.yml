@@ -1,7 +1,7 @@
 url: https://api.carbonnapkin.com/health
-status: down
-code: 502
-responseTime: 286
-lastUpdated: 2026-08-20T20:05:27.223Z
+status: up
+code: 200
+responseTime: 342
+lastUpdated: 2026-08-20T20:10:13.524Z
 startTime: 2026-05-10T16:37:05.245Z
 generator: Upptime <https://github.com/upptime/upptime>
