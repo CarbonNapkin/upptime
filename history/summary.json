@@ -150,19 +150,19 @@
     "url": "https://api.carbonnapkin.com/health/fedex",
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
     "slug": "fed-ex",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.67%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
-    "time": 373,
-    "timeDay": 195,
-    "timeWeek": 165,
-    "timeMonth": 266,
-    "timeYear": 373,
+    "time": 372,
+    "timeDay": 246,
+    "timeWeek": 185,
+    "timeMonth": 268,
+    "timeYear": 372,
     "dailyMinutesDown": {
-      "2026-08-31": 0
+      "2026-08-31": 5
     }
   },
   {
@@ -272,19 +272,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
     "slug": "render-reserve",
     "status": "up",
-    "uptime": "98.98%",
-    "uptimeDay": "99.29%",
-    "uptimeWeek": "97.71%",
-    "uptimeMonth": "98.98%",
-    "uptimeYear": "98.98%",
+    "uptime": "99.03%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "97.81%",
+    "uptimeMonth": "99.03%",
+    "uptimeYear": "99.03%",
     "time": 255,
     "timeDay": 289,
     "timeWeek": 267,
     "timeMonth": 255,
     "timeYear": 255,
     "dailyMinutesDown": {
-      "2026-08-28": 220,
-      "2026-08-31": 10
+      "2026-08-28": 220
     }
   },
   {
