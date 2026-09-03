@@ -12,7 +12,7 @@
     "uptimeYear": "99.85%",
     "time": 304,
     "timeDay": 449,
-    "timeWeek": 347,
+    "timeWeek": 401,
     "timeMonth": 308,
     "timeYear": 304,
     "dailyMinutesDown": {
@@ -269,20 +269,20 @@
     "url": "https://api.carbonnapkin.com/health/render/cf",
     "icon": "https://icons.duckduckgo.com/ip3/api.carbonnapkin.com.ico",
     "slug": "render-reserve",
-    "status": "down",
-    "uptime": "99.19%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "97.81%",
-    "uptimeMonth": "99.19%",
-    "uptimeYear": "99.19%",
-    "time": 264,
-    "timeDay": 374,
-    "timeWeek": 282,
-    "timeMonth": 264,
-    "timeYear": 264,
+    "status": "up",
+    "uptime": "99.13%",
+    "uptimeDay": "98.96%",
+    "uptimeWeek": "97.67%",
+    "uptimeMonth": "99.13%",
+    "uptimeYear": "99.13%",
+    "time": 299,
+    "timeDay": 725,
+    "timeWeek": 352,
+    "timeMonth": 299,
+    "timeYear": 299,
     "dailyMinutesDown": {
       "2026-08-28": 220,
-      "2026-09-03": 0
+      "2026-09-03": 15
     }
   },
   {
