@@ -9,6 +9,12 @@ sites:
     url: https://carbonnapkin.com/health
   - name: Great Lakes Shafts
     url: https://greatlakesshafts.com/health
+  # Launched 2026-09-14 (cn#1016 un-parked prod). Same caveat as every
+  # storefront: /health is exempt from the maintenance flag, so this reads
+  # 'up' while a parked brand serves its holding page — which is why Lake
+  # Superior Fasteners is NOT here until it relaunches (#85).
+  - name: LakerPrints
+    url: https://lakerprints.com/health
   - name: Database
     url: https://api.carbonnapkin.com/health/db
   # Supabase Auth (GoTrue). Sits next to Database because they're the pair
@@ -19,6 +25,11 @@ sites:
     url: https://api.carbonnapkin.com/health/auth
   - name: Payments
     url: https://api.carbonnapkin.com/health/payments
+  # Mercury is the partner-payout money-out path. Nothing else touches the
+  # token between payouts, so this probe is the only continuous signal that
+  # a payout *could* be sent. Route added in cn 5a964074 (2026-08-21).
+  - name: Mercury
+    url: https://api.carbonnapkin.com/health/mercury
   - name: Droplet
     url: https://api.carbonnapkin.com/health/droplet
   - name: FedEx
