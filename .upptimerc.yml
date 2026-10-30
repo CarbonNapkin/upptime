@@ -1,46 +1,65 @@
 owner: CarbonNapkin
 repo: upptime
+# icon: shown on each status card and in the README table. Upptime's default
+# is DuckDuckGo's favicon service for the URL's host, which has nothing for
+# api.carbonnapkin.com or the smaller brand domains and renders a generic
+# chevron. Brand sites use their own favicon.svg; API sub-services carry the
+# vendor they front (Supabase, Stripe, carriers...) so a red card says at a
+# glance whose outage it is; in-house pieces wear the CarbonNapkin mark.
 sites:
   - name: API
     url: https://api.carbonnapkin.com/health
+    icon: https://carbonnapkin.com/favicon.svg
   - name: Portal
     url: https://portal.carbonnapkin.com/health
+    icon: https://carbonnapkin.com/favicon.svg
   - name: CarbonNapkin
     url: https://carbonnapkin.com/health
+    icon: https://carbonnapkin.com/favicon.svg
   - name: Great Lakes Shafts
     url: https://greatlakesshafts.com/health
+    icon: https://greatlakesshafts.com/favicon.svg
   # Launched 2026-09-14 (cn#1016 un-parked prod). Same caveat as every
   # storefront: /health is exempt from the maintenance flag, so this reads
   # 'up' while a parked brand serves its holding page — which is why Lake
   # Superior Fasteners is NOT here until it relaunches (#85).
   - name: LakerPrints
     url: https://lakerprints.com/health
+    icon: https://lakerprints.com/favicon.svg
   - name: Database
     url: https://api.carbonnapkin.com/health/db
+    icon: https://icons.duckduckgo.com/ip3/supabase.com.ico
   # Supabase Auth (GoTrue). Sits next to Database because they're the pair
   # that mean "nobody can use the site" — Postgres being up is no comfort if
   # logins can't be verified. Route added in cn#772; the probe behind it had
   # been running in cron.dependency_health for months with no public signal.
   - name: Auth
     url: https://api.carbonnapkin.com/health/auth
+    icon: https://icons.duckduckgo.com/ip3/supabase.com.ico
   # Cloudflare R2: uploads, order photos, BOLs, CAD files, PDF renders.
   # Nothing probed it until cn 7dde8bd8 (2026-10-29); a rotated token would
   # have shown up as the first customer's failed upload. Route cn#1464.
   - name: Storage
     url: https://api.carbonnapkin.com/health/storage
+    icon: https://icons.duckduckgo.com/ip3/cloudflare.com.ico
   - name: Payments
     url: https://api.carbonnapkin.com/health/payments
+    icon: https://icons.duckduckgo.com/ip3/stripe.com.ico
   # Mercury is the partner-payout money-out path. Nothing else touches the
   # token between payouts, so this probe is the only continuous signal that
   # a payout *could* be sent. Route added in cn 5a964074 (2026-08-21).
   - name: Mercury
     url: https://api.carbonnapkin.com/health/mercury
+    icon: https://icons.duckduckgo.com/ip3/mercury.com.ico
   - name: Droplet
     url: https://api.carbonnapkin.com/health/droplet
+    icon: https://icons.duckduckgo.com/ip3/digitalocean.com.ico
   - name: FedEx
     url: https://api.carbonnapkin.com/health/fedex
+    icon: https://icons.duckduckgo.com/ip3/fedex.com.ico
   - name: UPS
     url: https://api.carbonnapkin.com/health/ups
+    icon: https://icons.duckduckgo.com/ip3/ups.com.ico
   # The carrier that actually ships. The probe behind this also checks the
   # token's GRANTED scopes — USPS hands back a 200 token with revoked scopes
   # silently stripped (2026-08-15: labels 401'd while rates worked), so a
@@ -48,14 +67,19 @@ sites:
   # cron.dependency_health since 2026-08-22; public route cn#1464.
   - name: USPS
     url: https://api.carbonnapkin.com/health/usps
+    icon: https://icons.duckduckgo.com/ip3/usps.com.ico
   - name: Email
     url: https://api.carbonnapkin.com/health/email
+    icon: https://icons.duckduckgo.com/ip3/resend.com.ico
   - name: HubSpot
     url: https://api.carbonnapkin.com/health/hubspot
+    icon: https://icons.duckduckgo.com/ip3/hubspot.com.ico
   - name: Crons
     url: https://api.carbonnapkin.com/health/crons
+    icon: https://carbonnapkin.com/favicon.svg
   - name: Render
     url: https://api.carbonnapkin.com/health/render
+    icon: https://carbonnapkin.com/favicon.svg
   # The CF Browser Rendering reserve pipeline. A back-pocket engine nobody
   # exercises is exactly the thing that rots unnoticed, so it gets watched
   # like a live one. Caveat: when DRAWING_RENDER_URL is unset the route
@@ -63,11 +87,13 @@ sites:
   # un-wired reserve. Check the bundleHash in the body for drift.
   - name: Render Reserve
     url: https://api.carbonnapkin.com/health/render/cf
+    icon: https://icons.duckduckgo.com/ip3/cloudflare.com.ico
   # OCCT STEP sidecar. Async + low-volume by design, so a dead sidecar
   # degrades STEP generation without ever failing an order — silent, which
   # is the whole reason it needs an external monitor.
   - name: STEP Sidecar
     url: https://api.carbonnapkin.com/health/step
+    icon: https://carbonnapkin.com/favicon.svg
   # Re-added 2026-08-15. Dropped 2026-04-14 when every idle access token
   # read as an outage; probe_qbo was rewritten 2026-05-15 and now reports
   # down only when the *refresh* token is stale (reauth genuinely required)
@@ -75,6 +101,7 @@ sites:
   # If this flaps again, the probe is the thing to fix, not this entry.
   - name: QuickBooks
     url: https://api.carbonnapkin.com/health/qbo
+    icon: https://icons.duckduckgo.com/ip3/quickbooks.intuit.com.ico
 notifications:
   # Slack alerts on site/service degradation. The Upptime workflow reads
   # the webhook URL from the NOTIFICATION_SLACK_WEBHOOK_URL repo secret —
