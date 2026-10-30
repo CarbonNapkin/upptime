@@ -6,6 +6,12 @@ repo: upptime
 # chevron. Brand sites use their own favicon.svg; API sub-services carry the
 # vendor they front (Supabase, Stripe, carriers...) so a red card says at a
 # glance whose outage it is; in-house pieces wear the CarbonNapkin mark.
+#
+# name prefix: "Container:" marks a process in the droplet's compose stack
+# (puppeteer, step-sidecar, the cron/worker heartbeat). API is left bare —
+# it is the headline service and fronts the whole stack, not one container.
+# slug: pinned on renamed entries so history/<slug>.yml and graphs/<slug>/
+# keep accruing instead of restarting under a new slugified name.
 sites:
   - name: API
     url: https://api.carbonnapkin.com/health
@@ -74,10 +80,12 @@ sites:
   - name: HubSpot
     url: https://api.carbonnapkin.com/health/hubspot
     icon: https://icons.duckduckgo.com/ip3/hubspot.com.ico
-  - name: Crons
+  - name: 'Container: Crons'
+    slug: crons
     url: https://api.carbonnapkin.com/health/crons
     icon: https://carbonnapkin.com/favicon.svg
-  - name: Render
+  - name: 'Container: Render'
+    slug: render
     url: https://api.carbonnapkin.com/health/render
     icon: https://carbonnapkin.com/favicon.svg
   # The CF Browser Rendering reserve pipeline. A back-pocket engine nobody
@@ -91,7 +99,8 @@ sites:
   # OCCT STEP sidecar. Async + low-volume by design, so a dead sidecar
   # degrades STEP generation without ever failing an order — silent, which
   # is the whole reason it needs an external monitor.
-  - name: STEP Sidecar
+  - name: 'Container: STEP Sidecar'
+    slug: step-sidecar
     url: https://api.carbonnapkin.com/health/step
     icon: https://carbonnapkin.com/favicon.svg
   # Re-added 2026-08-15. Dropped 2026-04-14 when every idle access token
