@@ -8,12 +8,13 @@ repo: upptime
 # glance whose outage it is; in-house pieces wear the CarbonNapkin mark.
 #
 # name prefix: "Container:" marks a process in the droplet's compose stack
-# (puppeteer, step-sidecar, the cron/worker heartbeat). API is left bare —
-# it is the headline service and fronts the whole stack, not one container.
+# (flask-main, flask-worker's cron heartbeat, puppeteer, step-sidecar) —
+# the four application containers; nginx/cloudflared/admin-proxy are plumbing.
 # slug: pinned on renamed entries so history/<slug>.yml and graphs/<slug>/
 # keep accruing instead of restarting under a new slugified name.
 sites:
-  - name: API
+  - name: 'Container: API'
+    slug: api
     url: https://api.carbonnapkin.com/health
     icon: https://carbonnapkin.com/favicon.svg
   - name: Portal
