@@ -23,6 +23,11 @@ sites:
   # been running in cron.dependency_health for months with no public signal.
   - name: Auth
     url: https://api.carbonnapkin.com/health/auth
+  # Cloudflare R2: uploads, order photos, BOLs, CAD files, PDF renders.
+  # Nothing probed it until cn 7dde8bd8 (2026-10-29); a rotated token would
+  # have shown up as the first customer's failed upload. Route cn#1464.
+  - name: Storage
+    url: https://api.carbonnapkin.com/health/storage
   - name: Payments
     url: https://api.carbonnapkin.com/health/payments
   # Mercury is the partner-payout money-out path. Nothing else touches the
@@ -36,6 +41,13 @@ sites:
     url: https://api.carbonnapkin.com/health/fedex
   - name: UPS
     url: https://api.carbonnapkin.com/health/ups
+  # The carrier that actually ships. The probe behind this also checks the
+  # token's GRANTED scopes — USPS hands back a 200 token with revoked scopes
+  # silently stripped (2026-08-15: labels 401'd while rates worked), so a
+  # scope regression reads down here instead of mid-shipment. Probed in
+  # cron.dependency_health since 2026-08-22; public route cn#1464.
+  - name: USPS
+    url: https://api.carbonnapkin.com/health/usps
   - name: Email
     url: https://api.carbonnapkin.com/health/email
   - name: HubSpot
